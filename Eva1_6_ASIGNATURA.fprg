@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-20 04:48:27 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTAwOzIwMjQtMDItMjA7MDQ6MTU6NDEgcC4gbS47MjgxOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTAwOzIwMjQtMDItMjA7MDQ6NDg6MjcgcC4gbS47MTsyOTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Clave" type="String" array="False" size=""/>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="TipoDeMateria" type="Boolean" array="False" size=""/>
+            <declare name="Cr&#233;ditos" type="Integer" array="False" size=""/>
+            <declare name="Carrera" type="String" array="False" size=""/>
+            <declare name="HT" type="Integer" array="False" size=""/>
+            <declare name="HP" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#191;Cu&#225;l es la clave de la materia?&quot;" newline="True"/>
+            <input variable="Clave"/>
+            <output expression="&quot;&#191;Cu&#225;l es el nombre de la materia?&quot;" newline="True"/>
+            <input variable="Nombre"/>
+            <output expression="&quot;&#191;Tu materia es gen&#233;rica?&quot;" newline="True"/>
+            <input variable="TipoDeMateria"/>
+            <output expression="&quot;&#191;Cu&#225;ntos cr&#233;ditos son?&quot;" newline="True"/>
+            <input variable="Cr&#233;ditos"/>
+            <output expression="&quot;&#191;Cu&#225;l es tu carrera?&quot;" newline="True"/>
+            <input variable="Carrera"/>
+            <output expression="&quot;&#191;Cu&#225;ntas horas teoricas son?&quot;" newline="True"/>
+            <input variable="HT"/>
+            <output expression="&quot;&#191;Cu&#225;ntas horas de pr&#225;ctica son?&quot;" newline="True"/>
+            <input variable="HP"/>
+        </body>
+    </function>
+</flowgorithm>
